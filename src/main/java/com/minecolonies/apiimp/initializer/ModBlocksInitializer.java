@@ -145,6 +145,11 @@ public final class ModBlocksInitializer
         ModBlocks.blockSimpleQuarry = new SimpleQuarry().registerBlock(registry);
         ModBlocks.blockMediumQuarry = new MediumQuarry().registerBlock(registry);
         //ModBlocks.blockLargeQuarry = new LargeQuarry().registerBlock(registry);
+
+        ModBlocks.blockGinger = new MinecoloniesCropBlock(GINGER, ModBlocks.farmland, List.of(Blocks.GRASS, Blocks.TALL_GRASS), null).registerBlock(registry);
+        ModBlocks.blockRadish = new MinecoloniesCropBlock(RADISH, ModBlocks.farmland, List.of(Blocks.FERN), ModTags.coldBiomes).registerBlock(registry);
+        ModBlocks.blockCassava = new MinecoloniesCropBlock(CASSAVA, ModBlocks.farmland, List.of(Blocks.GRASS, Blocks.TALL_GRASS, Blocks.DEAD_BUSH), ModTags.dryBiomes).registerBlock(registry);
+        ModBlocks.blockYam = new MinecoloniesCropBlock(YAM, ModBlocks.farmland, List.of(Blocks.GRASS, Blocks.TALL_GRASS), ModTags.temperateBiomes).registerBlock(registry);
     }
 
     @SubscribeEvent

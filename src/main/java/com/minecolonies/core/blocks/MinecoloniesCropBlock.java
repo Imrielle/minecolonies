@@ -53,6 +53,11 @@ public class MinecoloniesCropBlock extends AbstractBlockMinecolonies<Minecolonie
     public static String NETHER_PEPPER = "nether_pepper";
     public static String PEAS = "peas";
 
+    public static String GINGER = "ginger";
+    public static String CASSAVA = "cassava";
+    public static String YAM = "yam";
+    public static String RADISH = "radish";
+
     public static final  IntegerProperty AGE = IntegerProperty.create("age", 0, 6);
     private static final VoxelShape[] SHAPE_BY_AGE = new VoxelShape[] {
       Block.box(0.0, 0.0, 0.0, 16.0, 2.0, 16.0),

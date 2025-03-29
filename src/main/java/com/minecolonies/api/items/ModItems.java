@@ -149,6 +149,11 @@ public final class ModItems
     public static Item mintchoco_cheesecake;
     public static Item spicy_eggplant;
 
+    public static Item ginger;
+    public static Item cassava;
+    public static Item yam;
+    public static Item radish;
+
     public static Item large_water_bottle;
     public static Item large_milk_bottle;
     public static Item large_soy_milk_bottle;

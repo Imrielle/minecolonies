@@ -111,6 +111,11 @@ public final class ModBlocks
     public static MinecoloniesCropBlock blockNetherPepper;
     public static MinecoloniesCropBlock blockPeas;
 
+    public static MinecoloniesCropBlock blockGinger;
+    public static MinecoloniesCropBlock blockCassava;
+    public static MinecoloniesCropBlock blockYam;
+    public static MinecoloniesCropBlock blockRadish;
+
     /**
      * Private constructor to hide the implicit public one.
      */
@@ -197,7 +202,11 @@ public final class ModBlocks
           blockNetherPepper,
           blockPeas,
           blockMint,
-          blockButternutSquash
+          blockButternutSquash,
+          blockGinger,
+          blockCassava,
+          blockYam,
+          blockRadish
         };
     }
 }
