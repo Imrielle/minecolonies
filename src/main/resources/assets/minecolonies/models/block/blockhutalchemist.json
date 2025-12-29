@@ -4,7 +4,7 @@
 	"ambientocclusion": false,
 	"textures": {
 		"1": "block/stone",
-		"2": "minecolonies:block/blockAlchemist",
+		"2": "minecolonies:block/blockalchemist",
 		"4": "block/campfire_log",
 		"5": "block/stripped_dark_oak_log",
 		"6": "minecolonies:block/liquid/potionwater_still",
